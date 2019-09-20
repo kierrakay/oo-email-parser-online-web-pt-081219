@@ -16,19 +16,4 @@ end
 
 end 
 
-#class EmailAddressParser
-#	attr_accessor :emails
-	
-#	def initialize(emails)
-#		@emails= emails
-#	end
-	
-#	def parse
-#		@emails = @emails.gsub(/[\s,]/ ," ").split
-		# @email is an array now
-#		@emails.uniq
-#	end
-	
-#end
-
-
+# method is changing string of emails to array. and returning only unique emails. parser only does sting to array
